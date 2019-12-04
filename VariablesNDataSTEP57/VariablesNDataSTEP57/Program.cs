@@ -12,8 +12,7 @@ class Program
 
 
         Console.WriteLine("What page number?");
-        string pageNum = Console.ReadLine();
-        int numPage = Convert.ToInt32(pageNum);
+        int userInput = Convert.ToInt32(Console.ReadLine());
         //ASKED AND STORED VALUE OF INTEGER AFTER CONVERTING
 
         Console.WriteLine("Do you need help with anything? Please answer “true” or “false”.");
@@ -24,7 +23,6 @@ class Program
         Console.ReadLine();
         Console.WriteLine("Were there any positive experiences you’d like to share? Please give specifics.");
         string share = Console.ReadLine();
-        Console.ReadLine();
         //ASKED AND STORED VALUE STRING
 
         Console.WriteLine("Is there any other feedback you’d like to provide? Please be specific.");
@@ -32,8 +30,7 @@ class Program
         //ASKED AND STORED VALUE STRING
 
         Console.WriteLine("How many hours did you study today?");
-        string study = Console.ReadLine();
-        int hours = Convert.ToInt32(study);
+        int Input = Convert.ToInt32(Console.ReadLine());
         //ASKED AND STORED VALUE OF INTEGER AFTER CONVERTING
 
 
