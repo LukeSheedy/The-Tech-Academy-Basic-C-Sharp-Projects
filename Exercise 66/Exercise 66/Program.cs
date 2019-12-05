@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Exercise_66
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
 
             ////1:multiplies by 50 
