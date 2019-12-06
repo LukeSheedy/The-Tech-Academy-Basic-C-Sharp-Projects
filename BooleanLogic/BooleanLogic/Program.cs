@@ -47,10 +47,12 @@ namespace BooleanLogic
             //Console.WriteLine(true != false); //== TRUE
             //Console.WriteLine(false != false); //== FALSE
 
+            //// ONLY wants one to be true!
+            //Console.WriteLine(true ^ true); //== false
+            //Console.WriteLine(true ^ false);//== true
+            //Console.WriteLine(false ^ false);// == false
 
-            Console.WriteLine(true ^ true); //== false
-            Console.WriteLine(true ^ false);//== true
-            Console.WriteLine(false ^ false);// == false
+
 
 
             Console.ReadLine();
