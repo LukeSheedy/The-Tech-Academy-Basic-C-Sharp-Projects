@@ -23,9 +23,25 @@ namespace ExceptionHandling
             }
             catch (FormatException ex)
             {
+                Console.WriteLine("Pleasetype a whole number.");
+            }
+            catch (DivideByZeroException ex)
+            {
+                Console.WriteLine("Please don't devide by zero");
+            }
+            catch (Exception ex)
+            {
                 Console.WriteLine(ex.Message);
             }
-            Console.ReadLine();
+            finally
+            {
+                Console.ReadLine();
+            }
+
+
+
+
+
 
         }
     }
